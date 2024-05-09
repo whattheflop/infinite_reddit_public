@@ -1,0 +1,41 @@
+{
+  "name": "autoreddit",
+  "version": "1.0.0",
+  "description": "Infinite Reddit",
+  "main": "audio.js",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "canvas": "^2.6.0",
+    "deasync": "^0.1.16",
+    "delivery": "0.0.6",
+    "event-stream": "^4.0.1",
+    "express": "^4.17.1",
+    "ffmpeg": "0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "express-http-context": "^1.2.3",
+    "forever": "^1.0.0",
+    "forever-monitor": "^1.7.1",
+    "https": "^1.0.0",
+    "node-pre-gyp": "^0.14.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "snoowrap": "^1.20.1",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BRI0004/autoreddit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BRI0004/autoreddit/issues"
+  },
+  "homepage": "https://github.com/BRI0004/autoreddit#readme"
+}
